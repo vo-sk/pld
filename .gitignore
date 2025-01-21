@@ -10,5 +10,5 @@ dist/
 # Ignore temporary files
 *.tmp
 
-# Ignore .env file
+# Add this line to your .gitignore file
 .env
