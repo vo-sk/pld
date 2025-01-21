@@ -9,3 +9,6 @@ dist/
 
 # Ignore temporary files
 *.tmp
+
+# Ignore .env file
+.env
