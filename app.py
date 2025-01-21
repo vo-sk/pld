@@ -22,7 +22,7 @@ fig = px.line(daily_standings_df, x='Date', y='Position', title='Premier League 
 
 # Define the layout of the app
 app.layout = html.Div(style={'font-family': 'Arial, Helvetica, sans-serif'}, children=[
-    html.H1(children='Premier League Dashboard - v1.1'), #updated version
+    html.H1(children='Premier League Dashboard - v1.2'), #updated version
 
     html.Div(style={'display': 'flex'}, children=[
         html.Div(style={'flex': '30%', 'padding': '10px'}, children=[
