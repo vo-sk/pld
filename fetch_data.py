@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 
-API_KEY = '2b09ddc1a88d428d8b9c7d2fa34754cb'  # Replace with your actual API key
+API_KEY = os.getenv('API_KEY')
 BASE_URL = 'https://api.football-data.org/v4/'
 
 def fetch_premier_league_data():
